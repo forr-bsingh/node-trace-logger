@@ -1,0 +1,23 @@
+{
+  "name": "trace-logger",
+  "version": "1.0.0",
+  "description": "POC for logging trace in node application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Morgan",
+    "Express",
+    "Trace"
+  ],
+  "author": "Baljeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "node-uuid": "^1.4.8",
+    "rotating-file-stream": "^3.1.1"
+  }
+}
